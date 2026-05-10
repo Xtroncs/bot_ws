@@ -3,6 +3,7 @@
 
    <xacro:include filename="$(find my_bot)/description/robot_core.xacro" />
    <xacro:include filename="$(find my_bot)/description/gazebo_control.xacro"/>
-   
-<xacro:include filename="$(find my_bot)/description/lidar.xacro"/>
+    <xacro:include filename="$(find my_bot)/description/lidar.xacro"/>
+   <!-- <xacro:include filename="$(find my_bot)/description/camera.xacro"/> -->
+     <xacro:include filename="$(find my_bot)/description/depth_camera.xacro"/>
 </robot>
